@@ -32,6 +32,10 @@
         <maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
 
         <skip.javadoc>true</skip.javadoc>
+        
+        <sonar.organization>stevedwray</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
 
     <profiles>
@@ -170,5 +174,4 @@
             </plugins>
          </pluginManagement>
     </build>
-
 </project>
